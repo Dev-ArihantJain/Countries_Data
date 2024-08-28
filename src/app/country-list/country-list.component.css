@@ -23,7 +23,8 @@ select {
 }
 
 .country-card {
-    flex: calc(12.333% - 1rem);
+    width: 10rem;
+    height: 12rem;
     background-color: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 8px;
