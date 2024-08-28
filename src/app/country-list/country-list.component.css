@@ -1,0 +1,52 @@
+/* country-list.component.css */
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.country-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.country-card {
+    flex: calc(12.333% - 1rem);
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+
+.country-card img {
+    width: 100%;
+    height: auto;
+}
+
+.country-card h2 {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.country-card p {
+    margin: 0.5rem;
+}
